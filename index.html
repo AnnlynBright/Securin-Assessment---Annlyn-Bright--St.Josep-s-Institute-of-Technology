@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVD CVE Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NVD CVE Data</h1>
+        <div>
+            <label for="results-per-page">Results Per Page:</label>
+            <select id="results-per-page">
+                <option value="100">100</option>
+                <option value="50">50</option>
+                <option value="10">10</option>
+            </select>
+            <div id="total-records">
+               
+            </div>
+        </div>
+        <table id="cve-table">
+            <thead>
+                <tr>
+                    <th>CVE ID</th>
+                    <th>Identifier</th>
+                    <th>Publish Date</th>
+                    <th>Last Modified</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+        <div id="pagination">
+           
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
